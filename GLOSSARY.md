@@ -18,3 +18,8 @@
 - **Coroutine:** An async computation that can pause at `await`.
 - **Hashable:** An object with a stable hash value that can be used as a dictionary key.
 - **Metaclass:** The class of a class; commonly `type`.
+- **Call stack:** The execution structure tracking active function calls.
+- **Frame:** Runtime information for one executing function or module scope.
+- **Bytecode:** Intermediate instructions executed by a Python virtual machine.
+- **Reference counting:** A CPython memory-management technique that tracks references to objects.
+- **Garbage collection:** Cleanup of unreachable objects, including cyclic references.

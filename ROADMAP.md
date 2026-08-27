@@ -33,11 +33,12 @@ Work from left to right. Each row is a section; its lessons should be split into
 | 27 Concurrency | threads, locks, processes, queues, models | functions | concurrent processor |
 | 28 Asyncio | coroutines, event loop, tasks, `gather` | functions | async task runner |
 | 29 Performance | complexity, `timeit`, profiling, memory | collections, functions | measure before optimize |
-| 30 Python Internals | object model, references, GC, CPython details | advanced OOP | memory experiments |
+| 30 Python Internals | names and objects, references, mutability, call stack, frames, scopes, bytecode, interpreter execution, reference counting, cyclic GC, CPython details | advanced OOP | execution and memory experiments |
 | 31 Advanced Language Features | descriptors, `__slots__`, metaclasses | internals, OOP | carefully scoped experiments |
 | 32 Packaging | `pyproject.toml`, metadata, local installs | modules | Python package |
 | 33 Pythonic Design | APIs, small functions, composition, quality | all previous | design review |
-| 34 DSA with Python | stacks, queues, trees, graphs, search, sorting | collections, functions | algorithm drills |
-| 35 Final Projects | CLI, file engine, package, concurrent and async tools | roadmap complete | portfolio projects |
+| 34 Final Projects | CLI, file engine, package, concurrent and async tools | roadmap complete | portfolio projects |
+
+This is a Python language and runtime course, not a separate algorithms course. Data structures appear only as Python topics: lists, tuples, sets, dictionaries, `collections`, custom classes, iterators, and generators. Internals will distinguish language guarantees from CPython implementation details.
 
 Difficulty rises from Level 1 (syntax) to Level 6 (advanced). Do not skip practice to reach advanced topics faster.
