@@ -13,8 +13,20 @@ words = normalized.split()
 counts = Counter(words)
 
 print(f"Characters: {len(text)}")
+# Result: Characters: 22
 print(f"Words: {len(words)}")
+# Result: Words: 4
 print(f"Unique words: {len(set(words))}")
+# Result: Unique words: 3
 print(f"Most common: {counts.most_common(1)[0]}")
+# Result: Most common: ('code', 2)
+
+# Why normalize first? Without replacing punctuation, "often!" and "often"
+# would be counted as different words. Keep text and normalized separate so the
+# original character count remains available.
+
+# Common mistake:
+# counts.most_common(1)[0] fails for empty input. Check whether words exist
+# before indexing the first result.
 
 # Active recall: why should punctuation be normalized before counting words?
